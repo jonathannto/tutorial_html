@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <title>Site do Jou</title> <link rel="icon" type="image/x-icon" href="imagens/tartaruga-icon.png">
+      <link rel="stylesheet" href="estilo/estilo.css">
+      <script type="text/javascript" src="mapper/mapper.js"></script>
+   </head>
+   <body>
+      <h1>JONATHAN NASCIMENTO</h1>
+      <hr>
+        <div class="alinhar-centro menu">
+            <a href="home.html">Inicio</a>
+            <a href="quem-somos.html">Quem somos</a>
+            <a href="contato.html">Contatos</a>
+            <a href="blog.html">Blog</a>
+            <a href="loja.html">Loja</a>
+            <a href="https://google.com" target="_blank">Google</a>
+        </div>
+      <hr>
+      <div>
+         <ul class="slider">
+            <li>
+               <input type="radio" id="slide-1" name="slide" checked>
+               <label for="slide-1"></label>
+               <img src="imagens/slide-1.png" >
+            </li>
+            
+            <li>
+               <input type="radio" id="slide-2" name="slide">
+               <label for="slide-2"></label>
+               <img src="imagens/slide-2.png" >
+            </li>
+            
+            <li>
+               <input type="radio" id="slide-3" name="slide">
+               <label for="slide-3"></label>
+               <img src="imagens/slide-3.png" >
+            </li>
+         </ul>
+      </div>
+
+      <div class="ofertas">
+            <div class="titulo-ofertas"><p>Ofertas para você</p></div>
+            <div class="area-produto">  
+               <div class="caixa">
+                 <img src="imagens/produtos/cubo.png" usemap="#cubomap" alt="cubo" class="imagem-produto" width="260" height="280">
+                 <map name="cubomap">
+                  <area shape="rect" coords="40,58,245,218" href="produtos/cubo.html" alt="comprar cubo">
+                 </map>
+                 <div class="titulo-produto">
+                  <p>Cubo Mágico Rubik</p>
+                 </div>
+                 <div class="descricao-produto">
+                  <p>R$ 49,99</p>
+                 </div>
+               </div>
+               <div class="caixa">
+                  <img src="imagens/produtos/bola.png" usemap="#bolamap" alt="bola" class="imagem-produto">
+                  <map name="bolamap">
+                     <area shape="circle" coords="175, 165, 75" href="produtos/bola.html" alt="comprar bola">
+                  </map>
+                  <div class="titulo-produto">
+                     <p>Bola da copa do mundo</p>
+                  </div>
+                  <div class="descricao-produto">
+                     <p>R$ 149,99</p>
+                  </div>
+               </div>
+               <div class="caixa">
+                  <img src="imagens/produtos/quadro.png" usemap="#quadromap" alt="quadro" class="imagem-produto">
+                  <map name="quadromap">
+                     <area shape="rect", coords= "72 ,33,245,264" href="produtos/quadro.html" alt="comprar quadro">
+                  </map>
+                  <div class="titulo-produto">
+                     <p>Quadro de estudos</p>
+                  </div>
+                  <div class="descricao-produto">     
+                     <p>R$ 89,99</p>
+                  </div>
+               </div>
+               <div class="caixa">
+                  <img src="imagens/produtos/banana.png" usemap="#bananamap" alt="banana" class="imagem-produto">
+                  <map name="bananamap">
+                     <area shape="poly" coords="190,51,231,46,254,90,254,102,241,150,190,209,135,235,108,232,87,202,90,139,153,41,178,27" href="produtos/banana.html" alt="comprar banana">
+                  </map>
+                  <div class="titulo-produto">
+                     <p>Quadro de estudos</p>
+                  </div>
+                  <div class="descricao-produto">
+                     R$ 9,99/Kg
+                  </div>
+            </div>
+         </div>
+      </div>
+      <p style="text-align: center; font-size:12px">Todos os direitos reservados - Jou 2024</p>
+   </body>
+</html>

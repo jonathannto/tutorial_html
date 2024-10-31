@@ -1,0 +1,225 @@
+/* **************** Classes CSS ********************** */
+
+.alinhar-centro{
+   text-align: center;
+}
+
+.menu{
+   font-size: 2.0rem;
+}
+
+.voltar-inicio{
+   text-align: right;
+   margin-right: 80px;
+   font-size: 45px;
+}
+
+.postagem{
+   margin-left: 40px;
+   margin-right: 40px;
+   padding: 3rem;
+   text-align: justify;
+   background-color: rgba(240, 255, 255, 0.887);
+   color: black;
+   /* background-image: url('../imagens/imagem-de-fundo.jpg'); */
+}
+
+.titulos-do-blog{
+   text-align: center;
+   color: blueviolet;
+}
+
+.namorados {
+   color:red;
+}
+
+.imagem-redonda {
+   border-radius: 1000px;
+}
+
+.moca-bicicleta {
+   float: right;
+   padding: 10px;
+   margin-left: 3px;
+}
+
+.casal {
+   float: left;
+   padding: 10px;
+   margin-right: 3px;
+   width: 350px;
+   height: 450px;
+}
+
+.imagem-slide {
+   height: 293px;
+   width: 600px;
+}
+
+.slider {
+   display: block;
+   height: 293px;
+   width: 600px;
+   margin: auto;
+   margin-top: 20px;
+   position: relative;
+}
+
+.slider li {
+   list-style: none;
+   position: absolute;
+}
+
+.slider img {
+   margin: auto;
+   height: 100%;
+   width: 100%;
+   vertical-align: top;
+   opacity: 0;
+   visibility: hidden;
+}
+
+.slider input {
+   display: none;
+}
+
+.slider li input:checked ~ img {
+   opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+.slider label {
+   background-color: black;
+   bottom: 10px;
+   cursor: pointer;
+   display: block;
+   height: 10px;
+   position: absolute;
+   width: 10px;
+   z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+   left: 10px;
+}
+
+.slider li:nth-child(2) label {
+   left: 40px;
+}
+
+.slider li:nth-child(3) label {
+   left: 70px;
+}
+
+.ofertas {
+   background-color: rgba(240, 255, 255, 0.47);
+   font-size: 28px;
+   color: black;
+   padding-top: 4px;
+   padding-bottom: 15px;
+   padding-left: 4%;
+   padding-right: 4%;
+}
+
+.area-produto {
+   display: flex;
+}
+
+.titulo-ofertas {
+   display: block;
+}
+
+.imagem-produto {
+   height: 280px;
+   width: 260px;
+   padding-left: 40px;
+}
+
+.titulo-produto {
+   font-size: 14px;
+   color: black;
+}
+
+.descricao-produto {
+   font-size: 16px;
+   font-weight: 900;
+   color: black;
+   padding-bottom: 15px;
+}
+
+.caixa{
+   height: 350px;
+   width: 350px;
+   padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 10px;
+   margin: 10px;
+  
+}
+
+.produto-caixa{
+   margin-left: 40px;
+   margin-right: 40px;
+   padding: 3rem;
+   text-align: justify;
+   background-color: rgba(240, 255, 255, 0.72);
+   color: black;
+   display: flex;
+}
+
+.produto-imagem{
+   width: 40%;
+}
+
+.produto-info{
+   width: 60%;
+   
+}
+
+/* **************** TAGs HTML Customizadas ********************** */
+body {
+   background-image: url('../imagens/mar-fundo-grande.jpg');
+   background-size: 100%;
+   color: azure;
+}
+
+a:link {
+   color: green;
+   background-color: transparent;
+   text-decoration: none;
+ }
+
+ a:visited {
+   color: darkorange;
+   background-color: transparent;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   color: blueviolet;
+   background-color: transparent;
+   text-decoration: none;
+ }
+ 
+ a:active {
+   color: gray;
+   background-color: transparent;
+   text-decoration: none;
+ } 
+ table {
+   width: 100%;
+ }
+
+ th, td {
+   padding: 15px;
+ }
+
+ table, th, td {
+   border: 1px solid black;
+   border-collapse: collapse;
+ }
+
+ map area:link {
+   outline: red auto 5px !important;
+ }
